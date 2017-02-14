@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.main {
+  height: 100%;
+  background: url(../img/love_bgi.jpg) no-repeat center center;
+  background-size: cover; }
+
+.main-content {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.content-header {
+  width: 20%; }
+.content-header img, .content-main img {
+  width: 100%; }
+
+.content-main {
+  width: 25%;
+  margin: 0 auto; }
+
+.content-footer {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  width: 166px;
+  height: 244px;
+  margin: 0 auto;
+  background-image: url(../img/love_people.jpg);
+  background-repeat: no-repeat;
+  background-position: -230px 0;
+  -webkit-animation: lovepeople 1s linear 2s forwards;
+  animation: lovepeople 1s linear 2s forwards; }
+
+@-webkit-keyframes lovepeople {
+  to {
+    background-position: 0 0; } }
+
+@keyframes lovepeople {
+  to {
+    background-position: 0 0; } }
